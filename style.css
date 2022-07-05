@@ -1,0 +1,13 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  justify-content: center;
+  color: white;
+  background-image: url(images/donation13.jpg);
+  width: 1440px;
+  height: 669px;
+  background-repeat: no-repeat;
+}
