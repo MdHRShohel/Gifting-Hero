@@ -44,7 +44,9 @@ body {
   border: 0;
   border-radius: 7px;
 }
-
+.flex-container {
+  display: flex;
+}
 .titles {
   font-size: 50px;
   font-weight: 700;
@@ -53,10 +55,10 @@ body {
 .paragraph-style {
   border-top: 1em;
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
+  justify-content: space-around;
 }
-.donate {
-  display: flex;
+.centering {
   justify-content: center;
 }
 
@@ -73,10 +75,11 @@ body {
   margin: 4px 2px;
 }
 
-.donation-button:hover {
-  background-color: white;
+#five-hundred {
+  background-color: rgba(255, 68, 0, 0.116);
   color: orangered;
   border: 2px solid orangered;
+  font-weight: 800;
 }
 .donate-amount {
   border: none;
@@ -93,10 +96,84 @@ body {
   text-align: center;
 }
 
+.our-service {
+  margin: 20px;
+  justify-content: space-around;
+}
+.services {
+  width: 350px;
+  height: 280px;
+  text-align: center;
+  padding: 20px;
+}
+#service1 {
+  background-color: #4f9da620;
+}
+#service2 {
+  background-color: #ff595937;
+}
+#service3 {
+  background-color: #fff4d682;
+}
+
+.partnar-box {
+  width: 40%;
+  margin: 5%;
+  padding-left: 15%;
+  box-shadow: 10px 10px 40px gray;
+}
+.partnar-name h3 {
+  font: size 700px;
+  text-align: center;
+}
+.partnar img {
+  width: 20%;
+}
+.update {
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.contact-section {
+  text-align: center;
+  font-weight: bold;
+  width: 809px;
+  height: 200px;
+  background-color: #fff4d6;
+  margin: 0 auto;
+}
+.contact {
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  margin-top: 10%;
+  border: 0;
+  background-color: #eaeae3;
+  margin-right: 0;
+  padding-right: 0;
+}
+.contact-btn {
+  background-color: #ff5959;
+  height: 40px;
+  width: 140px;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10%;
+  margin-left: 0;
+  padding-left: 0;
+}
 .footer-contain {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  color: rgb(255, 234, 0);
+  color: #ffffff;
   background-color: black;
+}
+#about-footer {
+  color: yellow;
+  text-align: center;
 }

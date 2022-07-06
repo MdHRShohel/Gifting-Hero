@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gifting Hero</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/gifting-hero.jpg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,7 +41,7 @@
       <section class="amount-donation">
         <h1 class="titles">Donate Today</h1>
         <br />
-        <p class="paragraph-style">
+        <p class="paragraph-style centering">
           Wherever there are people with distress and difficulty, <br />
           Gifting Hero is there to provide aid and assistance<br />
           to them to alleviate their sufferings.<br />
@@ -49,10 +50,12 @@
         <br />
         <br />
         <br />
-        <div class="donate">
+        <div class="centering flex-container">
           <button class="donation-button"><h3>100tk</h3></button>
           <button class="donation-button"><h3>200tk</h3></button>
-          <button class="donation-button"><h3>500tk</h3></button>
+          <button class="donation-button" id="five-hundred">
+            <h3>500tk</h3>
+          </button>
           <button class="donation-button"><h3>1000tk</h3></button>
           <button class="donation-button"><h3>5000tk</h3></button>
         </div>
@@ -73,15 +76,115 @@
           </div>
         </div>
       </section>
-      <br /><br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <section>
-        <div></div>
+        <h1 class="titles">Our Donation Plan</h1>
+        <br />
+        <br />
+        <br />
+        <div class="donation-plan">
+          <p class="paragraph-style">
+            To create self-employed and self-empowered communities with
+            increased <br />
+            capabilities by providing need-based services and supports
+            <br />
+            like food security, health, sanitation, education, gender, <br />
+            environment, social security, marketing, technology, etc.
+          </p>
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="our-service centering flex-container">
+          <div class="services" id="service1">
+            <img src="icons/food.png" alt="" />
+            <h2>Food for a family</h2>
+            <p>
+              The Foundation has taken initiative to distribute Iftar items
+              among the needy fasting people in remote areas of the country so
+              that they can observe fasting and worship without any hindrance
+              during the month of Ramadan.
+            </p>
+          </div>
+          <div class="services" id="service2">
+            <img src="icons/shelter.png" alt="" />
+            <h2>Shelter for a family</h2>
+            <p>
+              About 26,000 sq km (18%) of Bangladesh is flooded by monsoons
+              every year. At this time, especially in the northern part of the
+              country, the Banavasi people are the victims of extreme misery.
+            </p>
+          </div>
+          <div class="services" id="service3">
+            <img src="icons/Frame-1.png" alt="" />
+            <h2>Education for a child</h2>
+            <p>
+              Taking care of orphans in the hope of Allah's pleasure and reward
+              is an important act of worship and the best gift.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
       </section>
+      <section>
+        <h1 class="titles">OUR PARTNERS</h1>
+        <br />
+        <br />
+        <br />
+        <div class="flex-container">
+          <div class="partnar-box">
+            <img src="partners/meer.png" alt="" />
+            <h3 class="partnar-name">MEER FOUNDATION USBD INC.</h3>
+          </div>
+          <div class="partnar-box centering">
+            <img src="partners/basmah.png" alt="" />
+            <h3 class="partnar-name">
+              Bangladesh American Society<br />of Muslim Aid for Humanity Inc
+            </h3>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <br />
+      <div class="update">
+        <h1 class="titles">Get My Updates</h1>
+        <br />
+        <br />
+        <br />
+        <p>
+          Those who donate at least one lakh rupees or more to the foundation
+          fund for the benefit of the foundation at one time will be a life
+          member of the foundation.
+        </p>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="contact-section centering flex-container">
+        <input class="contact" type="text" placeholder="Email" />
+        <button class="contact-btn">Subscribe</button>
+      </div>
     </main>
+    <br />
+    <br />
+    <br />
     <footer>
       <div class="footer-contain">
-        <h3>CopyRight &copy; <i>Gifting-Hero</i> - 2022</h3>
-        <h2>A nonprofit and nonpolitical organization.</h2>
+        <h3>
+          © Copyright 2022 | <strong>Gifting-Hero</strong> is a tax-exempt
+          501(c)(3) non-profit.
+        </h3>
+        <small id="about-footer"
+          >All Rights Reserved | Powered by GIFTING HERO BD.</small
+        >
       </div>
     </footer>
   </body>
