@@ -1,13 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 body {
   font-family: "Fira Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
-.header {
-  justify-content: center;
-  color: white;
+.top-banner {
   background-image: url(images/donation13.jpg);
-  width: 1440px;
-  height: 669px;
   background-repeat: no-repeat;
+  background-size: 100%;
+  height: 90vh;
+  align-items: center;
+}
+
+.top-banner-h1 {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  font-weight: bold;
+  padding-top: 4em;
+}
+.top-banner-paragraph {
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+}
+.donate-button {
+  margin-left: 45%;
+  margin-top: 50px;
+  background-color: #ff5959;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 7px;
+}
+
+.titles {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.paragraph-style {
+  border-top: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+.donate {
+  display: flex;
+  justify-content: center;
+}
+
+.donation-button {
+  border: none;
+  color: black;
+  background-color: #fafafa;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 4px 2px;
+}
+
+.donation-button:hover {
+  background-color: white;
+  color: orangered;
+  border: 2px solid orangered;
+}
+.donate-amount {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+}
+#line {
+  height: 1px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  width: 50%;
+  text-align: center;
 }
