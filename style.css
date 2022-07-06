@@ -24,7 +24,7 @@ body {
   text-align: center;
   font-size: 65px;
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   padding-top: 4em;
 }
 .top-banner-paragraph {
@@ -32,7 +32,7 @@ body {
   text-align: center;
   color: white;
 }
-.donate-button {
+.click-button {
   margin-left: 45%;
   margin-top: 50px;
   background-color: #ff5959;
@@ -122,12 +122,13 @@ body {
   padding-left: 15%;
   box-shadow: 10px 10px 40px gray;
 }
-.partnar-name h3 {
-  font: size 700px;
-  text-align: center;
+.partnar-box img{
+    width: 50%;
+    padding-left: 5%;
 }
-.partnar img {
-  width: 20%;
+.partnar-name h3 {
+  font: size 400px;
+  text-align: center;
 }
 .update {
   text-align: center;
