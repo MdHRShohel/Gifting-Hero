@@ -92,3 +92,11 @@ body {
   width: 50%;
   text-align: center;
 }
+
+.footer-contain {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(255, 234, 0);
+  background-color: black;
+}
